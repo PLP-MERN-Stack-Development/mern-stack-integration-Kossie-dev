@@ -76,3 +76,85 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 - [React Documentation](https://react.dev/)
 - [Node.js Documentation](https://nodejs.org/en/docs/)
 - [Mongoose Documentation](https://mongoosejs.com/docs/) 
+
+## ✨ Features
+
+### Authentication & Authorization
+- ✅ User registration with email and password
+- ✅ Secure login with JWT tokens
+- ✅ Password hashing with bcrypt
+- ✅ Role-based access control (Admin/User)
+- ✅ Protected routes and API endpoints
+- ✅ Token refresh mechanism
+- ✅ User profile management
+- ✅ Change password functionality
+
+### Post Management
+- ✅ Create, read, update, and delete blog posts
+- ✅ Rich text content support
+- ✅ Post categorization
+- ✅ Tag system for posts
+- ✅ Post status (Draft, Published, Archived)
+- ✅ View counter for posts
+- ✅ Pagination for post listing
+- ✅ Filter posts by category and status
+- ✅ Search functionality (coming soon)
+
+### Category Management
+- ✅ Create and manage categories
+- ✅ Automatic slug generation
+- ✅ Category descriptions
+- ✅ Post count per category
+
+### UI/UX Features
+- ✅ Responsive design (mobile, tablet, desktop)
+- ✅ Modern and clean interface
+- ✅ Loading states and spinners
+- ✅ Error handling with user-friendly messages
+- ✅ Form validation
+- ✅ Optimistic UI updates
+- ✅ Toast notifications (coming soon)
+
+### Advanced Features
+- ✅ Custom React hooks (useApi, useForm, useAuth)
+- ✅ Context API for global state management
+- ✅ useReducer for complex state logic
+- ✅ Axios interceptors for API calls
+- ✅ Input validation with Joi
+- ✅ Error handling middleware
+- ✅ CORS configuration
+- ✅ Database seeding script
+
+---
+
+## 🛠️ Tech Stack
+
+### Backend
+- **Node.js** - JavaScript runtime
+- **Express.js** - Web application framework
+- **MongoDB** - NoSQL database
+- **Mongoose** - MongoDB ODM
+- **JWT** - JSON Web Tokens for authentication
+- **Bcrypt.js** - Password hashing
+- **Joi** - Schema validation
+- **CORS** - Cross-Origin Resource Sharing
+
+### Frontend
+- **React** - UI library
+- **React Router** - Client-side routing
+- **Axios** - HTTP client
+- **Context API** - State management
+- **React Hooks** - State and lifecycle management
+- **CSS3** - Styling (Flexbox, Grid)
+
+### Development Tools
+- **Nodemon** - Auto-restart server
+- **Vite** - Fast build tool
+- **ESLint** - Code linting
+- **Postman** - API testing
+
+### Screenshots
+Home Screenshot- images\blog-api-home.png
+Login Screenshot- images\blog-api-login.png
+Posts screenshot- images\blog-api-posts.png
+Register screenshot- images\blog-api-register.png
