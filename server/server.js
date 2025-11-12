@@ -7,10 +7,10 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 const path = require('path');
 
-// Import routes
-const postRoutes = require('./routes/posts');
-const categoryRoutes = require('./routes/categories');
-const authRoutes = require('./routes/auth');
+// Import routes (from src)
+const postRoutes = require('./src/routes/postRoutes');
+const categoryRoutes = require('./src/routes/categoryRoutes');
+const authRoutes = require('./src/routes/authRoutes');
 
 // Load environment variables
 dotenv.config();
